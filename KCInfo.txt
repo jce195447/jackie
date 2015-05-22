@@ -1,2 +1,41 @@
 OMS   SVN账号：PanLi/PanLi123
 VPN----   lipan/KC_LI@09
+
+WMS-SVN:
+https://180.166.144.196/svn/ECRM/
+
+
+OMS-VPN:
+KC_LI@09
+
+Data Source=kcwms.kaytune.com,1233;Initial Catalog=ECRM;user id=WH;pwd=KC2015%^&wh20151028
+
+101.231.95.194,123
+数据库：
+Data Source=101.231.95.194,1233;Initial Catalog=ECRM;user id=WH;pwd=KC2015%^&wh2015
+远程桌面：WIN-SQL-SLAVE\admin    kc@2014!
+
+
+WMS-DB-TEST:
+180.169.45.155,443    sa/sasa1210@
+
+服务发布测试服务器：
+180.166.144.196   Administrator/ES_@2014_KC
+sa/Sqlserver110
+
+jconn6ss7junu.sqlserver.rds.aliyuncs.com,3433
+jusrywdz2d55
+sasa1210_it
+
+Levies
+218.244.145.243
+Administrator
+KaytuneITTestingServer2015
+
+主服务器：
+58.247.46.60
+kcwms.kaytune.com/180.169.45.157
+KC\administrator
+ES_@2015_kc
+Administrator
+g]d7oyX+
