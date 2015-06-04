@@ -1,0 +1,18 @@
+1、找到以下文件
+
+C:\Windows\Microsoft.NET\Framework\v3.5\Microsoft.CompactFramework.Common.targets
+
+2、用记事本打开该文件，找到以下节点，按照加粗亮底的部分，修改后保存。
+
+<Target Name="PlatformVerificationTask" Condition="'$(SkipPlatformVerification)' == 'true'" >
+  <PlatformVerificationTask
+    PlatformFamilyName="$(PlatformFamilyName)"
+    PlatformID="$(PlatformID)"
+    SourceAssembly="@(IntermediateAssembly)"
+    ReferencePath="@(ReferencePath)"
+    TreatWarningsAsErrors="$(TreatWarningsAsErrors)"
+    PlatformVersion="$(TargetFrameworkVersion)"/>
+</Target>
+3、重启VS，再次编译.
+
+msdn资料：http://blogs.msdn.com/b/vsdteam/archive/2006/09/15/756400.aspx
